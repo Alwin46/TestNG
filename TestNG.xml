@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="This suite is created for TestNG Example" verbose="2">
+
+   <!-- <test name="test for testNG  xml file run Example">
+        <classes>
+            <class name="TestNG.testFor_xml1"></class>
+        </classes>
+    </test>
+
+    <test name="test for testNG xml file run  Example">
+        <classes>
+            <class name="TestNG.testFor_xml2"></class>
+        </classes>
+    </test>
+    
+    <test name="Test is created for run group">
+        <groups>
+            <run>
+                <include name="Audi"></include>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="TestNG.test_Group"></class>
+        </classes>
+    </test>
+    
+<test name="This test was created for parameterization">
+    <parameter name="Name" value="Alwin"></parameter>
+    <classes>
+        <class name="TestNG.test_Parameterization"></class>
+    </classes>
+</test>
+    
+    
+     <test name="This test is created for run parallel" parallel="methods" thread-count="2">
+         <classes>
+             <class name="TestNG.test_Parallel"></class>
+         </classes>
+     </test>
+-->
+    <listeners>
+        <listener class-name="TestNG.test_Listener"> </listener>
+    </listeners>
+
+    <test name="This test is created for testListener">
+        <classes>
+            <class name="TestNG.test_ForListener"> </class>
+        </classes>
+    </test>
+
+</suite>
+
+
+ 
