@@ -3,7 +3,7 @@
 
 <suite name="This suite is created for TestNG Example" verbose="2">
 
-   <!-- <test name="test for testNG  xml file run Example">
+    <test name="test for testNG  xml file run Example">
         <classes>
             <class name="TestNG.testFor_xml1"></class>
         </classes>
@@ -40,7 +40,7 @@
              <class name="TestNG.test_Parallel"></class>
          </classes>
      </test>
--->
+
     <listeners>
         <listener class-name="TestNG.test_Listener"> </listener>
     </listeners>
