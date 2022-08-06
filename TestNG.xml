@@ -27,7 +27,7 @@
         </classes>
     </test>
     
-<test name="This test was created for parameterization">
+<test name="This test is created for parameterization">
     <parameter name="Name" value="Alwin"></parameter>
     <classes>
         <class name="TestNG.test_Parameterization"></class>
